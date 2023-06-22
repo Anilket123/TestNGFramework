@@ -23,6 +23,20 @@ public class orangeHrm {
         driver = WebDriverManager.chromedriver().capabilities(options).create();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     }
+    fsddddddd
+
+
+
+    fsdfdsf
+            ds
+    f
+
+    public fsddddddd getFsdfdsf() {
+        ds
+                fsd
+                f
+    }
+
     @BeforeMethod
     public void getBeforeurl(){
         System.out.println("current url is :" + driver.getCurrentUrl());
