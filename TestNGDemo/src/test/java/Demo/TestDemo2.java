@@ -18,5 +18,6 @@ public class TestDemo2 {
     @Test(priority = 4,enabled = false)
     public void AddToCart(){
         System.out.println("user can add their fav product to cart...!");
+        System.out.println();
     }
 }
