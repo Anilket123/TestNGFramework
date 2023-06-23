@@ -1,6 +1,7 @@
 package Demo;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.netty.handler.ssl.IdentityCipherSuiteFilter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -15,37 +16,8 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 public class orangeHrm {
     WebDriver driver;
-    @BeforeClass
-    public void Browsersetup(){
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        options.setCapability(ChromeOptions.CAPABILITY, options);
-        driver = WebDriverManager.chromedriver().capabilities(options).create();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-    }
-    fsddddddd
 
 
-
-    fsdfdsf
-            ds
-    f
-
-    public fsddddddd getFsdfdsf() {
-        ds
-                fsd
-                f
-    }
-
-    @BeforeMethod
-    public void getBeforeurl(){
-        System.out.println("current url is :" + driver.getCurrentUrl());
-    }
-    @AfterMethod
-    public void getAfterurl(){
-        System.out.println("current url is :" + driver.getCurrentUrl());
-        System.out.println("Title is:" + driver.getTitle());
-    }
 @Test
     public void HrmLogin() throws InterruptedException {
        // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
